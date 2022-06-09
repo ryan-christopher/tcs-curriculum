@@ -1,0 +1,124 @@
+body {
+    background: #1f1f1f;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+  }
+  
+  .intro {
+    margin: 30px 0px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  
+  p {
+    font-weight: 600;
+  }
+  
+  #first {
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  #second {
+    color: #6dc781;
+  }
+  
+  #third {
+    color: #da7878;
+    margin-bottom: 30px;
+  }
+  
+  #enter {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #5b95e0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    font-weight: normal;
+  }
+  
+  #enter:hover {
+    background-color: #5de7ff;
+    color: #080808;
+  }
+  
+  ul {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #d1d1d1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #242424;
+    width:40%;
+    min-width:250px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25 ease;
+  }
+  
+  li:hover {
+    background: #3c484b;
+  }
+  
+  li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #ff0000;
+    font-weight: 800;
+  }
+  
+  input {
+    border-radius: 10px;
+    width:30%;
+    min-width: 250px;
+    height:20px;
+    padding: 5px;
+    border: none;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  
+  input:focus{
+    outline:none;
+  }
+  
+  .done {
+    background: #396642 !important;
+    color: #ffffff;
+  }
+  
+  .delete {
+    display: none;
+  }
+  
+
+

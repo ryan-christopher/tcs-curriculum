@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS - Pong Project</title>
+    <link rel="shortcut icon" href="pictures/tcsicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <br>
+    <br>
+
+    <a href="../home/index.html">
+    <img src="pictures/tcslogo.png" alt="" class="tcsicon">
+    </a>
+
+    <br>
+
+    <h1>PONG</h1>
+
+    <img src="pictures/pongicon.png" alt="" class="ttticon">
+
+    <h2>-scratch edition-</h2>
+
+    <br>
+    <br>
+    <br>
+
+    <p class="contentheader">Intro -</p>
+
+    <p class="contentparagraph"> <a href="https://youtu.be/rEq1Z0bjdwc?t=7" target="_blank">Hello there!</a> My name
+        is
+        Alex Yamasaki and I am
+        one of the code coaches here at The Coder School. For our coding event, you are going to learn how to make a
+        pong game
+        using scratch programming language.
+        <br>
+    </p>
+
+    <img src="pictures/scratchlogo.png" alt="" class="pythonicon">
+    <br>
+    <p class="contentparagraph">
+        Don't worry if you haven't used scratch before, this project that we will work on is a great first program! And
+        if you are
+        familiar with scratch that's even better, the pong project is perfect for introducing more advanced topics
+        as well.
+    </p>
+
+    <br><br>
+
+    <p class="contentheader">Code Groups -</p>
+
+    <p class="contentparagraph">Scratch has different types of blocks for different purposes! Try to match up the different
+        code blocks to each color, and when you're not sure don't be afraid to do some searching.  
+        <br><br>
+         Here is what the code blocks look like:
+    </p>
+
+    <img src="pictures/codegroups.png" alt="" class="contentpic">
+
+    
+    <p class="contentheader">Your first lines -</p>
+
+    <p class="contentparagraph">
+        Now that you've seen the different blocks, lets see what code looks like in action!  Most of the time 
+        the first line will be the "When the green flag is clicked" block under the events group.  Think of it like 
+        a play button that runs our code in each sprite.  
+        <br><br>
+        Try to add these lines to your scratch cat and see what happens!
+    </p>
+
+    <img src="pictures/firstlines.png" alt="" class="contentpic">
+
+    <p class="contentparagraph">Always look at the screen to the right to see what happens with our output.
+        And if you want to try to play around with the backdrop button to change what the background looks like!
+    </p>
+
+    <img src="pictures/canvas.png" alt="" class="contentpic">
+
+
+    <p class="contentheader">Getting Started -</p>
+
+    <p class="contentparagraph">For Today we are going to use scratch. It's a block based visual programming language
+        for kids to give a basic understanding to code. Create a new project and apply this to our project
+
+
+    </p>
+
+    <p class="centercontent"><img src="pictures/scratch_code_block1.PNG"></p>
+
+    <p class="contentparagraph">Notice when the green flag is clicked, the sprite is moving forever. if we adjust the
+        number inside of steps, it will change the movement by little but still doesn't stop. We will be using "when the
+        green flag is clicked", event in able to create our game!
+    </p>
+
+    <br><br>
+
+    <p class="contentheader">Sprites & Backdrop //Desiging our pong game -</p>
+
+    <p class="contentparagraph">
+        Sprites are the images on a Scratch computer program screen. Every Scratch program is made up of sprites and the
+        scripts (instructions) that control them. We are able to create/get existing sprites from scratch and customize
+        them.</p>
+
+        <br>
+
+    <p class="contentparagraph">Here is where we can add more sprite to our project and even design our own!</p>
+        <br>
+    
+    <img src="pictures/makespriteicon.png" alt="" class="contentpic">
+
+    <p class="contentparagraph">
+        A backdrop is an image that can be shown on the Stage. It is similar to a costume, except that it is shown on
+        the stage instead. We can design our backdrop or get pre-existing backdrops from scratch. So we need to create a
+        tall-slim rectangle for our paddles. We would also add a small circle dot.
+    </p>
+
+    <img src="pictures/spritelayout.png" alt="" class="contentpic">
+
+    <p class="contentparagraph">Note that the instructions for backdrop and sprites is that we can customize them.
+        <em style="color:rgb(0, 204, 0);">imagination can be reality</em>
+    </p>
+
+    <img src="pictures/funnymeme_xd.PNG" alt="" class="contentpic">
+
+    <br><br>
+
+    <p class="contentheader">Creating Movement For Our Pongs -</p>
+
+    <p class="contentparagraph">Now that you've designed yourself pongs and a ball. We need to implement movement for
+        our pongs. Everytime I press a specific key, my pong would go up or down. How do you think we can implement this
+        in scratch?
+    </p>
+     <br>
+        <p class="centercontent">
+            hint: <br> use the green flag event, then a forever statement. <br> Inside a forever statement, add if/then
+            statement.<br> Inside the if/then statement, you can add a (key) is pressed. Then it would change the Y
+            cordinate.
+        </p>
+        <br><br>
+        <p class="contentparagraph">
+            Should look something like this:
+            <img src="pictures/movement.PNG" alt="" class="contentpic">
+        </p>
+
+    
+
+        <p class="contentheader">Ball mechanic -</p>
+
+        <p class="contentparagraph">So for our ball, we want to set a position in the middle as we click the green flag.
+            Also too, we want it to go point it in a different direction as we click the green flag.
+            <br>
+            Here's an example:
+        </p>
+
+        <img src="pictures/ball_position.PNG" alt="" class="contentpic">
+
+        <p class="contentparagraph">Now we need to implement a forever statement for our ball to move permanently. We
+            would implement a bouncing situation if it touches the edges, then it would bounce.
+            <br>
+            Like this:
+        </p>
+
+        <img src="pictures/Scratch_Code.PNG" alt="" class="contentpic">
+
+        <p class="contentparagraph">The output is able to make the ball bounce around the edges of the map.</p>
+
+
+        <p class="contentparagraph">Now we need to implement another piece of code whenever the ball touches the pong,
+            it will bounce back at different direction. We need to use sensor, control and operatives to solve this.
+            <br><br>
+            For Score detection, maybe we can design our canvas to have a different lines of a color. Whenever the ball
+            touches the
+            line color, it would go back to the center and move in a different direction after that.
+        </p>
+
+        <p class="centercontent">Hint: for making it bounce back.<br> Use if/then statements and connect it with
+            touching
+            sprite. Inside the if/then
+            statement, include a point in direction and inside of it, pick a random direction.
+            Now inside the direction, depending on the padding facing it would make the ball bounce back.</p>
+        <br>
+
+        <p class="contentheader">Challenge **Extra -</p>
+
+        <p class="contentparagraph">We need to create variables of eachother score, creating a variable in scratch is
+            simple!
+            <br><br>
+            Now we need to use math operations by our ball position if it's a specific area, then it goes to a specific
+            variable. For this, we can use greater than or lesser than and insert ball sprite x-position and solve this!
+        </p>
+
+        <img src="pictures/arrayandboard.png" alt="" class="contentpic">
+
+
+
+
+
+</body>
+
+</html>

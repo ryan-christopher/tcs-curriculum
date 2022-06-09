@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS - Tic Tac Toe Project</title>
+    <link rel="shortcut icon" href="pictures/tcsicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="../home/index.html">
+    <img src="pictures/tcslogo.png" alt="" class="tcsicon">
+    </a>
+
+    <h1>TIC TAC TOE</h1>
+
+    <img src="pictures/tttgrid.png" alt="" class="ttticon">
+
+    <h2>-python edition-</h2>
+
+    <br>
+    <br>
+    <br>
+
+    <p class="contentheader">Intro -</p>
+
+    <div class="examplearea">
+        <div class="examplelineright"></div>
+        <iframe id="replexample"src="https://repl.it/@rechristopher/tictactoe?lite=1&outputonly=1" 
+        scrolling="yes" frameborder="no" allowtransparency="true" allowfullscreen="true" 
+        sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals">
+        
+        </iframe>
+    </div>
+
+    <p class="contentparagraph"><a href="https://youtu.be/rEq1Z0bjdwc?t=7" target="_blank">Hello there!</a>  My name is Ryan and I am 
+        one of the code coaches here at The Coder School.  For our coding event, you're going to learn how to make a tic tac toe game
+        using the python programming language. &#x1F60E; 
+        <br>
+    </p>
+    
+    <img src="pictures/logo-python.svg" alt="" class="pythonicon">
+        <br>
+    <p class="contentparagraph">
+        Don't worry if you haven't used python before, this project that we will work on is a great first program!  And if you are
+        familiar with python that's even better, the tic tac toe project is perfect for introducing more advanced topics as well.  
+    </p>
+
+    <br><br>
+
+    <p class="contentheader">Getting Started -</p>
+
+    <p class="contentparagraph">For today we are going to use this site called repl.it.  It's an online based code compiler (program that runs
+        code for us) and is one of my favorites.  It also has dark mode which may or may not be why it is my favorite to use... Repl should
+        already be on the other tab on this computer, so go ahead and check it out!  
+        <br><br>
+        A print statement is a great first line of code to write.  Print statements allow the program to show the user, or person who runs
+        the program, information that the programmer, you in this case, want to display.  This is how a print statement looks:
+    </p>
+
+    <p class="centercontent">print("Hello World")</p>
+
+    <p class="contentparagraph">Notice how the word print is all lowercase despite being the first word, then there are parentheses that 
+        directly follow it, and there is information in the parentheses.  In this case, it is 2 words that have quotation marks at the beginning
+        and end, this is called a string!  Strings are any text that you want to place around these quotation marks, so mine is "Hello World." 
+        Try out writing another print statement that displays your name! 
+    </p>
+
+    <br><br>
+
+    <p class="contentheader">Functions -</p>
+
+    <p class="contentparagraph">Functions are really helpful in python, they allow you to write code that can be reused whenever you want!
+        Every function begins with "def" which is short for define, then the name of the function, and finally the information that the function
+        uses.  Here's an example:
+    </p>
+
+    <img src="pictures/examplefunction.png" alt="" class="contentpic">
+
+    <p class="contentparagraph">Note that the instructions for the function are placed on the next line and indented (the tab key can 
+        indent for you).  Then, when we want to use the function, we call it and give it the information it asks for when we define it.
+        In this case it asks for a name in the parentheses, so I used "Ryan" for mine!  You can make any function that asks for any amount
+        of things you want.  The fancy word for these things that the function asks for is called "parameters."  Use it for 
+        <em style="color:rgb(0, 204, 0);" >serious coding street cred.</em>
+    </p>
+
+    <img src="pictures/gangstanimal.jpg" alt="" class="contentpic">
+
+    <br><br>
+
+    <p class="contentheader">Making a grid -</p>
+
+    <p class="contentparagraph">Now that you made a function, lets see if you can make a function that
+        makes a tic tac toe grid!  If we have more than one print statment, each one prints on its own line.
+        With this in mind, how do you think we can make a tic tac toe board using these print statements?  
+    </p>
+        <br>
+    <p class="centercontent">
+        hint: <br> use spaces (" "), vertical lines ("|"), <br> and hyphens ("-")
+    </p>
+        <br><br>
+    <p class="contentparagraph">
+        Should look something like this:
+    </p>
+
+    <img src="pictures/makeboardfunc1.png" alt="" class="contentpic">
+
+    <p class="contentheader">An array -</p>
+
+    <p class="contentparagraph">So we have this grid, but we need to make it where we can change the spots of it to either "X" or "O",
+        standard tic tac toe rules.  What we can do is make a variable, and use this thing called an array to store more than one thing.  
+        Think of it like a list, where each thing is separate, but you can look at the whole list when you call the variable.  
+        <br>
+        Here's an example: 
+    </p>
+
+    <img src="pictures/array.png" alt="" class="contentpic">
+
+    <p class="contentparagraph">For every array there are brackets around the whole list of items, and each one is separated by a comma.
+        We can also look at (and change) individual parts of our array by calling the name of our array, then brackets around the spot we 
+        want to look at.  
+        <br>
+        Like this:
+    </p>
+
+    <img src="pictures/arrayaccess.png" alt="" class="contentpic">
+
+    <p class="contentparagraph">Here is the output:</p>
+
+    <img src="pictures/arrayaccessoutput.png" alt="" class="contentpic">
+    <img src="pictures/avatargif.gif" alt="" class="contentpic">
+
+    <p class="contentparagraph">See how when I want the first item, I call favoritecharacters[0] to get Aang, not favoritecharacters[1].
+        In arrays the first item is always at the position of zero!
+        <br>
+        With this in mind, how can we use an array to store the spots on our tic tac toe grid?  Let's use the numbers 1-9 as placeholders
+        on our board, and to make things easier, lets have our array begin with an empty string, ("") so that we can call our array with 
+        array[1] being "1" instead of "2"!
+        <br><br>
+    </p>
+
+    <p class="centercontent">Hint: spots = ["", "1", "2", etc.]</p>
+    <br>
+
+    <p class="contentheader">Upgrading our board -</p>
+
+    <p class="contentparagraph">Now that we have our array that has our spots, we need to have them show on our board when we use our
+        makeboard function.  This is where we start spicing things up with adding multiple pieces of information into one print statement!
+        Lets go back to our function that makes the tic tac toe board, and where we have the empty spaces we are going to add in our spots 
+        from our array.  
+        <br><br>
+        Remember how we got Aang by using array[0]?  We can use that same method, but add it into our existing function that makes our board.
+        Let's see how the first line would look:
+    </p>
+
+    <img src="pictures/arrayandboard.png" alt="" class="contentpic">
+
+    <p class="contentheader">Getting input -</p>
+
+    <p class="contentparagraph">Okay we have a working function that uses the spots of the array and prints out a board with that information,
+        pretty sweet right?  The next thing to do is to get user input, and then change the spot on the board that the user chooses to an "X" 
+        based off the number that is entered.  This code is going to go at the bottom of your program, and for now, lets only ask once for 
+        user input.  
+        <br><br>
+        It should look something like this:
+        
+    </p>
+    <br>
+    <p class="centercontent">playerchoice = int(input("Where do you choose?"))
+        <br>
+        spots[playerchoice] = "X"
+    </p>
+    <br>
+
+    <p class="contentparagraph">Now lets see this in action!  Call your makeboard function before and after you ask for input to see your
+        spot on the board become an X!  Like this:
+    </p>
+    <br>
+    <img src="pictures/userinput.png" alt="" class="contentpic">
+    <br>
+    <p class="contentheader">Let's loop -</p>
+
+    <img src="pictures/loopingdance.gif" alt="" class="dancegif">
+
+    <p class="contentparagraph">Seeing our board change is rad, but we should improve it so we can change it more than once.  We can achieve this 
+        with a loop!  A loop, much like the name implies, can make groups of code happen more than once when a program is run.  In this case, we are
+        going to use a while True loop.  Essentially, it will run forever until we tell it to stop.  Pretty OP if you ask me.  Here is how we can use
+        the while True loop for our game:
+    </p>
+
+    <br>
+
+    <img src="pictures/loopv1.png" alt="" class="contentpic">
+
+    <br>
+
+    <p class="contentparagraph">Give your code a run and make sure you can fill the entire board! </p>
+
+    <br>
+
+    <p class="contentheader">The CPU Opponent -</p>
+
+    <img src="pictures/robotgif.gif" alt="" class="dancegif">
+
+    <br>
+
+    <p class="contentparagraph">Here is where we code our own opponent to play against!  The first thing we want to do is import a function
+        that can generate a random number.  We can do this by using an import statement, and using python's "random" library to help us out.
+        Here is what we should put at the first line of code in our file: 
+    </p>
+
+    <br>
+
+    <p class="centercontent">from random import randint</p>
+
+    <br>
+
+    <p class="contentparagraph">The next step is for us to add a cpu choice into our loop that asks the user for input.  After we ask the 
+        player, the cpu takes its turn using a randomly generated number between 1 and 9.  Here is how we can code that:
+    </p>
+
+    <br>
+
+    <img src="pictures/cpuchoice.png" alt="" class="contentpic">
+
+    <br>
+
+    <p class="contentheader">Controlling input -</p>
+
+    <p class="contentparagraph">So we have the player and the cpu playing against each other, but nothing is stopping each side from
+        picking spots that are already taken.  This is where a little bit of computer logic comes into play.  Inside our main loop, we
+        need to check if that spot is taken with either an X or O.  
+    </p>
+
+    <br>
+
+    <img src="pictures/checkspots.png" alt="" class="contentpic">
+
+    <br>
+
+    <p class="contentparagraph">Inside of our while loop, we actually will use another while loop! Those loops will run as long as
+        the spots that either the player or computer pick are taken, so if the spot that either the player or cpu chooses is blank, 
+        the loops won't run!  <br><br>
+        We can check the values by using two equal signs, with either item we are comparing on each side.  If they are the same, then it 
+        is considered <em style="color:rgb(0, 204, 0);">True</em>, and if they are not the same then it is considered
+        <em style="color:red;">False</em>.
+    </p>
+
+    <img src="pictures/calculationgif.gif" alt="" class="dancegif">
+
+    <br>
+
+    <p class="contentheader">Tie Game -</p>
+
+    <p class="contentparagraph">Now that we have a player and computer turn, we need to make sure that there is code for a tie.
+        Otherwise, our game will become an infinite loop on the last turn which is no fun.  To create a way to end the loop, we are going
+        to make a variable called "turns" and set it to 0 before our loop starts.  Then, at the end of the loop, we will add 1 to it.
+    </p>
+
+    <img src="pictures/turnspart1.png" alt="" class="contentpic">
+
+    <p class="contentparagraph">
+        In tic tac toe, a tie happens when both the player and cpu played 4 turns, then the player has the last turn to either win or tie.
+        With that in mind, lets check in the middle of our loop if our turns is 4, then we can end the loop using a 
+        <em style="color:rgb(100,100,255);">break statement</em>.
+    </p>
+
+    <img src="pictures/turnspart2.png" alt="" class="contentpic">
+
+    <p class="contentheader">Winning and Losing -</p>
+
+    <p class="contentparagraph">Time to determine winning and losing!  What we are going to do is add a function before our game loop
+        that will run after every move to check if there is a winner on the board.  In total, there are 8 possible ways to win or lose 
+        in tic tac toe.  Here is the start of the function, you go ahead and try to figure out the other win/lose cases!:
+    </p>
+
+    <img src="pictures/checkresults.png" alt="" class="contentpic">
+
+    <p class="contentparagraph">Now all thats left is to call our checkresults function after each turn and BAM! You made a fully
+        operational tic tac toe game :)
+    </p>
+
+    <img src="pictures/checkresultsloop.png" alt="" class="contentpic">
+
+    
+</body>
+
+</html>

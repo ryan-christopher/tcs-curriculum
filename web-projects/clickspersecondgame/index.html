@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Major Click be Like</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Clicks Per Second</h1>
+
+    <div id="timer">
+
+        <h3>time:</h3>
+
+        <p id="timerdisplay">10</p>
+
+    </div>
+
+    <button onclick="clicked()" id="counter" >click here</button>
+
+    <div id="score">
+
+        <h3>score:</h3>
+
+        <p id="scoredisplay">0</p>
+
+    </div>
+
+    <div id="avg">
+        <h3>average:</h3>
+        <p id="avgnum"></p>
+    </div>
+
+    
+    <button onclick="restart()" id="reset">restart game</button>
+
+    <p id="results" class="hidden"></p>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

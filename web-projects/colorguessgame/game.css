@@ -1,0 +1,25 @@
+body{
+    background-color: #252525;
+}
+
+h1{
+    color:white;
+}
+
+.square{
+    width:30%;
+    background-color: purple;
+    padding-bottom:30%;
+    float:left;
+    margin:1.66%;
+    border-radius: 15px;
+}
+
+#container{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+#messageContainer{
+    background-color: antiquewhite;
+}

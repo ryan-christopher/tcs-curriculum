@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="calculator-icon.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+
+    <h1>TI-Nspire Be Like</h1>
+
+    <div id="calculator">
+
+        <div class="display">
+
+        <p id="output">0</p>
+
+        </div>
+
+        <div class="first-row">
+            <button id="r1-1" onclick="clearoutput()">C</button>
+            <button id="r1-2" onclick="percent()">%</button>
+            <button id="r1-3" onclick="updateDisplay('/')">/</button>
+        </div>
+
+        <div class="second-row">
+            <button id="r2-1" value="7" onclick="updateDisplay('7')">7</button>
+            <button id="r2-2" value="8" onclick="updateDisplay('8')">8</button>
+            <button id="r2-3" value="9" onclick="updateDisplay('9')">9</button>
+            <button id="r2-4 "value="X" onclick="updateDisplay('*')">X</button>
+        </div>
+
+        <div class="third-row">
+            <button id="r3-1" value="4" onclick="updateDisplay('4')">4</button>
+            <button id="r3-2" value="5" onclick="updateDisplay('5')">5</button>
+            <button id="r3-3" value="6" onclick="updateDisplay('6')">6</button>
+            <button id="r3-4" value="-" onclick="updateDisplay('-')">-</button>
+        </div>
+
+        <div class="fourth-row">
+            <button id="r4-1" value="1" onclick="updateDisplay('1')">1</button>
+            <button id="r4-2" value="2" onclick="updateDisplay('2')">2</button>
+            <button id="r4-3" value="3" onclick="updateDisplay('3')">3</button>
+            <button id="r4-4" value="+" onclick="updateDisplay('+')">+</button>
+        </div>
+
+        <div class="fifth-row">
+            <button id="r5-1" value="0" onclick="updateDisplay('0')">0</button>
+            <button id="r5-2" value="." onclick="updateDisplay('.')">.</button>
+            <button id="r5-3" value="=" onclick="solve()">=</button>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

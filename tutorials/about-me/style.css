@@ -1,0 +1,157 @@
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    background-color: rgb(30, 30, 30);
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    color:rgb(0, 230, 0);
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+h2{
+    color:white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.ttticon{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    background-color: white;   
+}
+
+.tcsicon{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;   
+}
+
+.contentheader{
+    color:rgb(0, 230, 0);
+    margin-left: 10%;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.contentparagraph{
+    color:white;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    min-width:300px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    font-size:18px;
+}
+
+.centercontent{
+    color:white;
+    display:block;
+    text-align:center;
+    margin-left: auto;
+    margin-right:auto;
+    width:30%;
+    min-width:300px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size:18px;
+    border: 2px solid rgb(0, 230, 0);
+    border-radius: 5px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    transition: border-color 0.5s;
+}
+
+.centercontent:hover{
+    border-color: rgb(100, 100, 255);
+    transition: border-color 0.5s;
+}
+
+p a{
+    color:rgb(0, 230, 0);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+p a:hover{
+    color:rgb(100, 100, 255);
+    transition: color 0.5s;
+}
+
+.contentpic{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    max-width:600px;
+    min-width:400px;
+    border-radius: 5px;
+    border:2px solid rgb(0, 199, 0);
+    transition: border-color 0.5s;
+}
+
+.contentpic:hover{
+    border-color: red;
+    transition: border-color 0.5s;
+}
+
+.pythonicon{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    background-color: rgb(0, 230, 0);
+    border-radius: 15px;
+}
+
+.dancegif{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:15%;
+    min-width:200px;
+    border-radius: 5px;
+    border:2px solid rgb(0, 199, 0);
+    transition: border-color 0.5s;
+}
+
+.dancegif:hover{
+    border-color: red;
+    transition: border-color 0.5s;
+}
+
+.ioniconlogo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150px;
+    color:white;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+a.centercontent{
+    text-decoration: none;
+    color:rgb(100, 100, 255);
+    width:20%;
+    transition:all 0.5s;
+}
+
+a.centercontent:hover{
+    color:rgb(0, 199, 0);
+    transition:all 0.5s;
+}

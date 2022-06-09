@@ -1,0 +1,54 @@
+.colorButton{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    margin: 40px;
+    transition: all 1s;
+  }
+  
+  #buttonWrapper{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  h1{
+    text-align: center;
+    color:white;
+  }
+
+  h3{
+    text-align: center;
+    color:white;
+  }
+  
+  #colorValue{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #answer{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #reset{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #reset-button{
+    padding: 10px;
+    background: none;
+    border: 1px solid black;
+    margin: 10px;
+  }
+
+
+body{
+  background-color:gray;
+  transition: all 2s;
+}

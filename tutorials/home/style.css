@@ -1,0 +1,136 @@
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    background-color: rgb(30, 30, 30);
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    color:rgb(0, 230, 0);
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.logobutton{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    padding:0px;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    
+}
+
+
+h2{
+    color:white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.tcsicon{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;   
+}
+
+.contentheader{
+    color:rgb(0, 230, 0);
+    margin-left: 10%;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.contentparagraph{
+    color:white;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    min-width:300px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    font-size:18px;
+}
+
+.pythonicon{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 15px;
+}
+
+.htmlicon{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 15px;
+}
+
+.scratchicon{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  
+.flex-container > div {
+    background-color: transparent;
+    border: 3px solid transparent;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    color:white;
+    width: 15%;
+    min-width: 250px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    text-align: center;
+    height: 10%;
+    min-height:175px;
+    line-height: 35px;
+    font-size: 40px;
+    transition:all 0.6s;
+  }
+
+.flex-container > div:hover {
+    background-color:rgb(20, 20, 20);
+    border-color:rgb(0, 230, 0);
+    color:rgb(0, 230, 0);
+    border-radius: 15px;
+    font-size: 45px;
+    letter-spacing:3px;
+    transition:all 0.6s;
+}
+.flex-container > div:hover a{
+    color:rgb(0, 230, 0);
+    transition:all 0.6s;
+}
+
+.flex-container > div > a{
+    text-decoration: none;
+    color:white;
+    transition: all 0.6s;
+}

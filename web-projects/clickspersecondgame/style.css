@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poiret One', cursive;
+    background-color: seagreen;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    text-align:center;
+}
+
+button{
+    font-family: 'Poiret One', cursive;
+    background-color: rgb(145, 60, 145);
+    color:white;
+    border:2px solid white;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+
+}
+
+button:active{
+    background-color:rgb(121, 51, 121);
+    border-color: rgb(230, 230, 230);
+}
+
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+    transition: all 0.5s;
+}
+
+h3:hover{
+    letter-spacing: 50px;
+    transition: all 0.5s;
+}
+
+p{
+    margin-top: 5px;
+}
